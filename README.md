@@ -26,7 +26,13 @@ Below is the list of all key-"words" allowed in .tlm files:
 | Y | halts the program and waits for user input in the form of a number, puts that number into the cell |
 | Q | prints the value on top of the stack |
 | B | duplicates the value of top of the stack and pushes it to the stack |
+| C | pops the the value on top of the stack and inserts it at the bottom |
+| W | swaps the two topmost values on top of the stack |
+| N | pushes the length of the stack to the stack |
+| E | pops the two topmost vlaues of the stack (a, b) and pushes a+b |
+| F | pops the two topmost values of the stack (a, b) and pushes a-b |
 
 
 
-(letters left: BCEFGJKNTUVW)
+
+(letters left: GJKTVW)
