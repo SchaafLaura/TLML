@@ -8,6 +8,7 @@ Below is the list of all key-"words" allowed in .tlm files:
 
 | Instruction   | |
 | - | - |
+| . | non-instruction (does nothing) |
 | U, D, L, R | Redirect flow of instruction pointer (up, down, left, right)  |
 | 0, 1, ..., 9 | Pushes the value of the cell to the stack  |
 | a, b, ..., z | Goes to function (a,b,...z) |
@@ -30,13 +31,11 @@ Below is the list of all key-"words" allowed in .tlm files:
 | Y | halts the program and waits for user input in the form of a number, puts that number into the cell |
 | Q | prints the value on top of the stack |
 | V | prints the value on top of the stack interpreted as a number (mod 10) |
-| W | prints the value on top of the stack interpreted as a capital letter (mod Z+1) |
+| G | prints the value on top of the stack interpreted as a capital letter (mod Z+1) |
 | K | prints the value on top of the stack interpreted as a letter (mod z+1) |
 | B | duplicates the value on top of the stack and pushes it to the stack |
 | W | swaps the two topmost values on top of the stack |
 
-
-G
 
 
 
