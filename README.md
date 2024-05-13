@@ -12,7 +12,7 @@ Below is the list of all key-"words" allowed in .tlm files:
 | 0, 1, ..., 9 | Pushes the value of the cell to the stack  |
 | a, b, ..., z | Goes to function (a,b,...z) |
 | P | pops the value on top of the stack and puts it in the current cell modulo 10 |
-| L | pops the value on top of the stack and puts it in the current cell, interpreted as a captial letter, "modulo Z + 1" |
+| T | pops the value on top of the stack and puts it in the current cell, interpreted as a captial letter, "modulo Z + 1" |
 | J | pops the value on top of the stack and puts it in the current cell, interpreted as a letter, "modulo z + 1" |
 | R | pops the value on top of the stack and puts it in the four orthogonal neighbors |
 | H | pops the value on top of the stack and puts it in the left and right neighbors |
@@ -43,4 +43,7 @@ Below is the list of all key-"words" allowed in .tlm files:
 
 
 
-(letters left: T)
+
+
+
+
