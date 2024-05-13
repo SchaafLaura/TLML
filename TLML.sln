@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLML", "TLML\TLML.csproj", "{E9CE78F2-CD76-4B74-9EC8-0C166871AAE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9CE78F2-CD76-4B74-9EC8-0C166871AAE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9CE78F2-CD76-4B74-9EC8-0C166871AAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9CE78F2-CD76-4B74-9EC8-0C166871AAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9CE78F2-CD76-4B74-9EC8-0C166871AAE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E27493C-8882-45AF-AD85-A9BCB362D86A}
+	EndGlobalSection
+EndGlobal
