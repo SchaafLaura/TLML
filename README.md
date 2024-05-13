@@ -24,3 +24,9 @@ Below is the list of all key-"words" allowed in .tlm files:
 | O | redirects control flow to the right (or left) if the top value on the stack is zero (nonzero) |
 | Z | halts the program and waits for user input in the form of a letter, puts that letter into the cell |
 | Y | halts the program and waits for user input in the form of a number, puts that number into the cell |
+| Q | prints the value on top of the stack |
+| B | duplicates the value of top of the stack and pushes it to the stack |
+
+
+
+(letters left: BCEFGJKNTUVW)
